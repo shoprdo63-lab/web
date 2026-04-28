@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דוד עובד | הדילמה</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">דוד עובד</div>
+        <ul class="nav-links">
+            <li><a href="#about">עליי</a></li>
+            <li><a href="#dilemma">הדילמה</a></li>
+            <li><a href="#timeline">ציר הזמן</a></li>
+            <li><a href="#contact">צור קשר</a></li>
+        </ul>
+        <div class="nav-toggle"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title"><span class="gradient-text">דוד עובד</span></h1>
+            <p class="hero-subtitle">[ תיאור קצר על עצמך ]</p>
+            <div class="hero-badges">
+                <span class="badge">Python Developer</span>
+                <span class="badge">AI Enthusiast</span>
+                <span class="badge">[ תוסיף ]</span>
+            </div>
+            <a href="#dilemma" class="hero-cta">
+                <span>לדילמת הפרויקט</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">מי אני</span>
+                <h2 class="section-title">עליי</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass">
+                    <div class="about-avatar">
+                        <div class="avatar-placeholder">DY</div>
+                    </div>
+                    <h3>דוד עובד</h3>
+                    <p class="about-role">[ תפקיד / תחום ]</p>
+                    <p class="about-text">[ כתוב כאן על עצמך — רקע מקצועי, למה AI, מה מעניין אותך ]</p>
+                    <div class="about-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">YOLO</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Computer Vision</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass"><div class="stat-number">4</div><div class="stat-label">חודשים קדימה</div></div>
+                    <div class="stat-card glass"><div class="stat-number">1</div><div class="stat-label">פרויקט נבחר</div></div>
+                    <div class="stat-card glass"><div class="stat-number">1</div><div class="stat-label">החלטה גדולה</div></div>
+                    <div class="stat-card glass"><div class="stat-number">∞</div><div class="stat-label">אפשרויות</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dilemma" class="section section-dark">
+        <div class="dilemma-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">הפרויקט</span>
+                <h2 class="section-title">העין העסקית</h2>
+                <p class="section-subtitle">מערכת AI לניתוח התנהגות לקוחות בחנויות פיזיות — Data-Driven Retail ב-Python</p>
+            </div>
+            <div class="project-single">
+                <div class="project-card glass featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M12 1v6m0 6v6"></path>
+                                <path d="M21 12h-6m-6 0H1"></path>
+                                <path d="m15 15 4.9 4.9"></path>
+                                <path d="m8.1 4.1-4.9 4.9"></path>
+                                <path d="m19 8.1 4.9-4.9"></path>
+                                <path d="m4.1 19 4.9-4.9"></path>
+                            </svg>
+                        </div>
+                        <span class="project-tag">Visual AI · Data-Driven Retail</span>
+                    </div>
+
+                    <h3 class="project-title-big">העין העסקית</h3>
+
+                    <div class="project-problem">
+                        <h4>הבעיה (הכאב)</h4>
+                        <p>בעלי חנויות (בגדים, סופרמרקטים, מסעדות) יודעים בדיוק מה הלקוח <strong>קנה</strong> (לפי הקופה), אבל אין להם מושג מה הוא <strong>עשה</strong> בחנות. איפה הוא נעצר? ליד איזה מדף הוא היסס והמשיך? האם התור ארוך מדי וגורם לאנשים לעזוב?</p>
+                    </div>
+
+                    <div class="project-solution">
+                        <h4>החדשנות</h4>
+                        <p>אתר שמאפשר לבעל עסק להעלות צילומי אבטחה (או להתחבר למצלמה בזמן אמת), וה-AI מנתח את הסרטון באופן אוטומטי ומייצר <strong>"מפת חום"</strong> ותובנות עסקיות — מבלי שאדם יצטרך לצפות בשעות של וידאו.</p>
+                    </div>
+
+                    <div class="project-features">
+                        <h4>מה המערכת תספק?</h4>
+                        <ul>
+                            <li><strong>מפת חום (Heatmap)</strong> — איפה הלקוחות מבלים הכי הרבה זמן</li>
+                            <li><strong>זמני השהייה</strong> — ממוצע ליד כל מדף/קטגוריה</li>
+                            <li><strong>זיהוי עומסים</strong> — התראה על תורים ארוכים מדי</li>
+                            <li><strong>ניתוח המרה</strong> — כמה נעצרו ליד מבצע לעומת כמה קנו</li>
+                            <li><strong>פרטיות מובנית</strong> — טשטוש פנים אוטומטי (Privacy by Design)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <h4>למה זה פרויקט רציני ואיכותי?</h4>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <strong>טכנולוגיה מתקדמת</strong>
+                                <span>YOLO + OpenCV — ליגת הגדולים ב-Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <strong>פרטיות</strong>
+                                <span>Face blurring אוטומטי — מוצר יוקרתי וחוקי</span>
+                            </div>
+                            <div class="tech-item">
+                                <strong>ערך כספי</strong>
+                                <span>רשתות משלמות עשרות אלפים על מידע כזה</span>
+                            </div>
+                            <div class="tech-item">
+                                <strong>השפעה</strong>
+                                <span>הופך חנות "טיפשה" לחנות "חכמה" כמו Amazon Go</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-stack-big">
+                        <span class="stack-label">Tech Stack:</span>
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">YOLO (v8/v9)</span>
+                        <span class="stack-item">OpenCV</span>
+                        <span class="stack-item">Flask/FastAPI</span>
+                        <span class="stack-item">SQLite/PostgreSQL</span>
+                        <span class="stack-item">Chart.js</span>
+                        <span class="stack-item">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ציר זמן</span>
+                <h2 class="section-title">4 החודשים הקרובים</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-month">חודש 1</span>
+                        <h4>מחקר ולמידה</h4>
+                        <p>YOLOv8/v9, OpenCV, מחקר פרטיות ו-GDPR, בניית Pipeline בסיסי לעיבוד וידאו</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-month">חודש 2</span>
+                        <h4>Core Features</h4>
+                        <p>זיהוי ועקיבה אחרי אנשים, מפת חום ראשונית, טשטוש פנים אוטומטי</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-month">חודש 3</span>
+                        <h4>Dashboard & API</h4>
+                        <p>בניית Web App ב-Flask/FastAPI, דשבורד עם גרפים, התראות על עומסים</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-month">חודש 4</span>
+                        <h4>השקה ומוצר</h4>
+                        <p>Demo לבעלי עסקים, מסמכי פרויקט, סרטון תדמית, הכנה לסוגיה</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="decision" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ניתוח החלטה</span>
+                <h2 class="section-title">האם לעשות את זה?</h2>
+                <p class="section-subtitle">ניתוח יתרונות וחסרונות — האם "העין העסקית" הוא הפרויקט הנכון ל-4 חודשים הקרובים?</p>
+            </div>
+
+            <div class="decision-grid">
+                <div class="decision-card glass yes">
+                    <div class="decision-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <h3>יתרונות</h3>
+                    </div>
+                    <ul class="decision-list">
+                        <li><strong>פרויקט "WOW"</strong> — יגרום לכולם לעצור ולהסתכל בסוגיה</li>
+                        <li><strong>טכנולוגיה מתקדמת</strong> — YOLO + Computer Vision = ליגת הגדולים</li>
+                        <li><strong>ערך כלכלי ברור</strong> — פותר בעיה אמיתית שעסקים משלמים עליה</li>
+                        <li><strong>פורטפוליו חזק</strong> — מוצר שאפשר להראות למעסידים עתידיים</li>
+                        <li><strong>למידה מעמיקה</strong> — פייתון, AI, Web Dev, DevOps — הכול ביחד</li>
+                        <li><strong>אפשרות למימוש</strong> — לא רק פרויקט לימודי, מוצר שאפשר למכור</li>
+                        <li><strong>פרטיות מובנית</strong> — מציג מודעות אתית וחוקית</li>
+                    </ul>
+                </div>
+
+                <div class="decision-card glass no">
+                    <div class="decision-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        <h3>חסרונות ואתגרים</h3>
+                    </div>
+                    <ul class="decision-list">
+                        <li><strong>מורכבות טכנית גבוהה</strong> — זיהוי אובייקטים בווידאו זה לא פשוט</li>
+                        <li><strong>צרכי חומרה</strong> — GPU לעיבוד וידאו מהיר, אולי ענן בתשלום</li>
+                        <li><strong>בעיות פרטיות</strong> — צריך להיות זהיר עם חוקי GDPR והגנת מידע</li>
+                        <li><strong>זמן פיתוח ארוך</strong> — 4 חודשים זה לוח זמנים צפוף לפרויקט כזה</li>
+                        <li><strong>צורך בדאטה</strong> — איך מקבלים סרטוני אבטחה אמיתיים לבדיקה?</li>
+                        <li><strong>בדיקות במציאות</strong> — צריך שותף עסקי אמיתי לבטא</li>
+                        <li><strong>תחזוקה מורכבת</strong> — מודלי AI דורשים עדכונים וכיוונון</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="decision-verdict glass">
+                <div class="verdict-header">
+                    <span class="verdict-tag">המלצתי</span>
+                </div>
+                <h3>כן, ללכת על זה — אבל עם הכנות</h3>
+                <p>העין העסקית הוא <strong>פרויקט מנצח</strong> ל-4 חודשים. הוא משלב AI מתקדם עם ערך עסקי אמיתי, ויספק תוצר מרשים להציג. עם זאת, חשוב:</p>
+                <div class="verdict-points">
+                    <div class="verdict-point"><strong>להתחיל פשוט</strong> — MVP עם זיהוי אנשים בסיסי, לא ניתוח התנהגות מורכב מדי</div>
+                    <div class="verdict-point"><strong>למצוא שותף עסקי</strong> — חנות אחת שתסכים לניסוי (אפילו משפחה/חברים)</div>
+                    <div class="verdict-point"><strong>לשים דגש על פרטיות</strong> — face blurring זה לא בונוס, זה חובה</div>
+                    <div class="verdict-point"><strong>להיות ריאלי</strong> — הדשבורד יהיה פשוט, העיקר שהזיהוי עובד טוב</div>
+                </div>
+                <div class="verdict-score">
+                    <div class="score-item">
+                        <span class="score-label">סיכויי הצלחה</span>
+                        <span class="score-value high">85%</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">רמת עניין</span>
+                        <span class="score-value high">95%</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">ערך מקצועי</span>
+                        <span class="score-value high">90%</span>
+                    </div>
+                </div>
+                <p class="verdict-final"><strong>סך הכל:</strong> פרויקט כזה יבדל אותך מהשאר ויפתח דלתות — שווה השקעה.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">צור קשר</span>
+                <h2 class="section-title">בוא נדבר</h2>
+            </div>
+            <div class="contact-grid">
+                <a href="#" class="contact-card glass">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <span>[ המייל שלך ]</span>
+                </a>
+                <a href="#" class="contact-card glass">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="contact-card glass">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 דוד עובד. בנוי ב-HTML, CSS & קצת קסם.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
